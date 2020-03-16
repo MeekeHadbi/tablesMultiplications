@@ -1,16 +1,15 @@
 <template>
   <div>
     <br>
-    <label for="user-input"> Entrez une valeur : </label>
+    <label for="user-input"> Entrainement sur la table de : </label>
     <input id="user-input" type="number" v-model="n">
-    <TableMultiplication v-bind:n="parseInt(n)"/>
   </div>
 </template>
 
 <script>
   import TableMultiplication from "../components/TableMultiplication.vue";
   export default {
-    name: "home",
+    name: "entrainement",
     data: function () {
       return {
         n: 1

@@ -3,6 +3,8 @@
     <nav class="topnav">
       <a class="active"><router-link to="/">&nbsp;Home</router-link></a>
       <a><router-link to="/tables">&nbsp;Les tables</router-link></a>
+      <a><router-link to="/entrainement">&nbsp;Entrainement</router-link></a>
+
     </nav>
     <img alt="Vue logo" src="./assets/logo.png" width="100" height="100">
     <router-view />

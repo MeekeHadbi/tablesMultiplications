@@ -1,6 +1,5 @@
 <template>
   <div>
-    <p>test: {{choice}}</p>
     <span v-for="k in choice" :key="k">
       <p>
         <table-multiplication v-bind:n="parseInt(k)" />&nbsp;
