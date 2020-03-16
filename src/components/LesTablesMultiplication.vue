@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h3>Les Tables De Multplications</h3>
-    <span v-for="k in 10" :key="k">
+    <p>test: {{choice}}</p>
+    <span v-for="k in choice" :key="k">
       <p>
         <table-multiplication v-bind:n="parseInt(k)" />&nbsp;
       </p>
@@ -18,7 +18,8 @@ export default {
     TableMultiplication
   },
   props: {
-    n: Number
+    n: Number,
+    choice: Number
   }
 };
 </script>
